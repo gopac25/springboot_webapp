@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/")
     public String home() {
-        return "Spring boot is working!";
+        return "Spring boot is working! This is test";
         }
 }
